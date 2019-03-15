@@ -1,2 +1,2 @@
-vairable4 = value4
+variable4 = value4
 
