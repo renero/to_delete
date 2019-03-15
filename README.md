@@ -5,9 +5,11 @@ I work on `develop`. I branch from there to add new features. New features, when
 
 I take the general rules from [here](https://stackoverflow.com/a/14168817).
 
-    (on branch development)$ git merge master
+    (on branch development)
+    $ git merge master
     (resolve any merge conflicts if there are any)
-    git checkout master
-    git merge development (there won't be any conflicts now)
+    $ git checkout master
+    (there won't be any conflicts now)
+    $ git merge --no-ff develop
 
 I also do this between features and `develop`.
