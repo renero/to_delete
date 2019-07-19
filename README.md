@@ -11,5 +11,6 @@ I take the general rules from [here](https://stackoverflow.com/a/14168817).
     $ git checkout master
     (there won't be any conflicts now)
     $ git merge --no-ff develop
+    $ git push origin develop
 
 I also do this between features and `develop`.
